@@ -1,6 +1,5 @@
 //set variables
 var cityInputEl= $("#city-input");
-
 var searchHistory= []
 var searchHistoryList = $("#search-history").append('<ul class="list-group"</ul>');
 var today= moment().format("MM/DD/YY")
@@ -106,3 +105,5 @@ function searchUVI(lat, lon){
 
 //event listener for the search button to initiate the get location function 
 searchBtnEl.on("click", getLocation)
+
+

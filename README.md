@@ -24,4 +24,13 @@ The purpose of this project is to create an interactive weather application usin
 * By using if/else if statements, I set the parameters for color coding the UV index so that it would change colors based on the severity
 * In the following for loop, I set the data points for the next five days of weather
 * Using the same if/else if statements, I set the parameters for the UV index for future weather 
-* Using the `.append()` method, I appended all of the newly created elements onto the daily forecast div, which is the main container for all of the daily divs 
+* Using the `.append()` method, I appended all of the newly created elements onto the daily forecast div, which is the main container for all of the daily divs
+
+## Assets
+![Screenshot](./DailyPlanner.jpeg)
+[LinktoRepository](https://github.com/Clatimer97/WeatherApplication)
+[LinktoLiveApp](https://clatimer97.github.io/CalendarApplication/)
+
+## Author
+[@CallanLatimer](https://github.com/Clatimer97)
+
