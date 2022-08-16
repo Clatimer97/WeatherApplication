@@ -62,16 +62,16 @@ function searchUVI(lat, lon){
         } else if (data.current.uvi > 11){
             dailyUVCase.css("background-color", "red")
         }
-        $("#h2-week").text("Five Day Forecast");
+       $("#h2-week").text("Five Day Forecast")
     //for loop to get all of the data for the future weather and create elements for them 
     for(i=1; i<6; i++){
         // let img = data.list[i].weather[1].icon 
         let div= $("<div>").addClass("dailyForecast");
         let date= $("<h3>").text(moment().add(i, "days"))
-        let temp = $("<p>").text("Temp" + data.daily[i].temp.day + "°F")
-        let humidity = $("<p>").text("Humidity" + data.daily[i].humidity+ "%")
-        let windspeed  = $("<p>").text("WindSpeed" + data.daily[i].wind_speed + "MPH")
-        let UvIndex = $("<p>").text("UV Index" + data.daily[i].uvi)
+        let temp = $("<p>").text("Temp: " + data.daily[i].temp.day + "°F")
+        let humidity = $("<p>").text("Humidity: " + data.daily[i].humidity+ "%")
+        let windspeed  = $("<p>").text("Windspeed: " + data.daily[i].wind_speed + "MPH")
+        let UvIndex = $("<p>").text("UV Index: " + data.daily[i].uvi)
     
     //same if statement for current UV index except with values substituted to allow for daily
      if (data.daily[i].uvi < 3){
@@ -106,4 +106,8 @@ function searchUVI(lat, lon){
 //event listener for the search button to initiate the get location function 
 searchBtnEl.on("click", getLocation)
 
+// function getInput(){
+//     searchedCities = cityInputEl.val()
+//     let searchHistory = JSON.parse(local)
+// }
 

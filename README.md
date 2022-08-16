@@ -27,9 +27,9 @@ The purpose of this project is to create an interactive weather application usin
 * Using the `.append()` method, I appended all of the newly created elements onto the daily forecast div, which is the main container for all of the daily divs
 
 ## Assets
-![Screenshot](./DailyPlanner.jpeg)
+![Screenshot](./WeatherApp.jpeg)
 [LinktoRepository](https://github.com/Clatimer97/WeatherApplication)
-[LinktoLiveApp](https://clatimer97.github.io/CalendarApplication/)
+[LinktoLiveApp]( https://clatimer97.github.io/WeatherApplication/)
 
 ## Author
 [@CallanLatimer](https://github.com/Clatimer97)
