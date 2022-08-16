@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+header{
+  display:flex;
+  padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(7, 7, 94);
+  color: white;
+  font-size: 30px;
+  align-items: center;
+};
+
+header h1 {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 30px;
+};
+
+aside {
+  padding: 20px
+};
+
+form {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  margin-bottom: 15px;
+}
+
+li {
+  cursor: crosshair;
+}
+
+form input {
+  font-size: 18px;
+}
+
+.main-display {
+  display: flex;
+  justify-content: space-between;
+}
+
+aside {
+  background-color: #f0f7fe;
+  width: 25%;
+  height: 50em;
+  margin: 10px;
+}
+
+#weather {
+  display: flex;
+  border-radius: 5px;
+  border-color: black;
+  width:75%;
+  height: 25em
+}
+
+#five-day {
+  display: flex;
+  justify-content: space-between;
+};
+
+#dailyForecast {
+  display: flex;
+  background-color: #0475ee;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  padding-right: 20px;
+  font-size: 10px
+
+};
+
+#weekly-div p{
+  font-size: 20px
+}
+
+#headliner {
+  align-items: center;
+  padding: 20px 0px 20px 0px;
+  font-size: 20px;
+  margin: 5px;
+};
+
+.uv-index {
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+};
+
+#currentUV{
+  font-size: 20px;
+  color: black
+}
