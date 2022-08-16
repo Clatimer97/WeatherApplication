@@ -64,7 +64,7 @@ aside {
   justify-content: space-between;
 };
 
-#dailyForecast {
+.dailyForecast {
   display: flex;
   background-color: #0475ee;
   color: white;

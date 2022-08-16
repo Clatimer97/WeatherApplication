@@ -63,10 +63,10 @@ function searchUVI(lat, lon){
         } else if (data.current.uvi > 11){
             dailyUVCase.css("background-color", "red")
         }
-
+        $("#h2-week").text("Five Day Forecast");
     //for loop to get all of the data for the future weather and create elements for them 
     for(i=1; i<6; i++){
-        let img = (data.daily[i].weather[0].icon + ".png");
+        // let img = data.list[i].weather[1].icon 
         let div= $("<div>").addClass("dailyForecast");
         let date= $("<h3>").text(moment().add(i, "days"))
         let temp = $("<p>").text("Temp" + data.daily[i].temp.day + "°F")
@@ -88,8 +88,8 @@ function searchUVI(lat, lon){
     }
 
         //created divs for each set of weather data then appended all of the information to a larger container
-        $("#dailyForecast").append(div)
-        div.append(img)
+        $("#weeklyForecast").append(div)
+        //  div.append(img)
         div.append(date)
         div.append(temp)
         div.append(humidity)
